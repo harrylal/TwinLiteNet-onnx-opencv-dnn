@@ -5,7 +5,7 @@ project(twinlitenet_dnn)
 find_package(OpenCV 4.8.0)
 
 # Options
-option(ENABLE_CUDA "Enable CUDA" ON)
+option(ENABLE_CUDA "Enable CUDA" OFF)
 
 if(ENABLE_CUDA)
   message(STATUS "CUDA is enabled")
