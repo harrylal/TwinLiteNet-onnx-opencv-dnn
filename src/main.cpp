@@ -38,7 +38,7 @@ int main()
     img_vis.setTo(cv::Scalar(255, 0, 127), da_out);
     img_vis.setTo(cv::Scalar(0, 0, 255), ll_out);
 
-    // save the image
+    // save the annotated image
     cv::imwrite("results.jpg", img_vis);
     std::cout << "Results saved" << std::endl;
 
