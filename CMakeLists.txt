@@ -18,7 +18,7 @@ set(SOURCE_FILES
   src/main.cpp
   src/twinlitenet_dnn.cpp)
 
-# general Includes
+# General Includes
 include_directories(
   include
   ${OpenCV_INCLUDE_DIRS}
