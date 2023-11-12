@@ -17,6 +17,8 @@ This repository contains a C++ implementation for performing inference with the 
 
 I would like to express sincere gratitude to the creators of the [TwinLiteNet model](https://github.com/chequanghuy/TwinLiteNet) for their remarkable work .Their open-source contribution has had a profound impact on the community and has paved the way for numerous applications in autonomous driving, robotics, and beyond.Thank you for your exceptional work.
 
+<br>
+
 ## Project Structure
 ```
 .
@@ -32,14 +34,20 @@ I would like to express sincere gratitude to the creators of the [TwinLiteNet mo
     ├── main.cpp
     └── twinlitenet_dnn.cpp
 ```
+<br>
+
 ## Requirements
 
 - OpenCV 4.8 +
+  
+<br>
 
 ## Build Options
 
 - **CUDA Inference:** To enable CUDA support for GPU acceleration, build with the `-DENABLE_CUDA=ON` CMake option.
 - **CPU Inference:** For CPU-based inference, no additional options are required.
+
+<br>
 
 ## Usage
 
@@ -53,9 +61,13 @@ make -j8
 ```
 4. Execute `./main` and Enjoy accurate lane detection and drivable area results!
 
+<br>
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE). Feel free to use it in both open-source and commercial applications.
+
+<br>
 
 ## Extras
 - [TwinLiteNet](https://github.com/chequanghuy/TwinLiteNet)
