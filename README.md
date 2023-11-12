@@ -41,3 +41,7 @@ make -j8
 ## License
 
 This project is licensed under the [MIT License](LICENSE). Feel free to use it in both open-source and commercial applications.
+
+## Extras
+- [TwinLiteNet](https://github.com/chequanghuy/TwinLiteNet)
+- [TwinLiteNet-ONNX-Runtime](https://github.com/harrylal/TwinLiteNet-onnxruntime)
