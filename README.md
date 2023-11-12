@@ -23,7 +23,7 @@ I would like to express sincere gratitude to the creators of the [TwinLiteNet mo
 
 ## Build Options
 
-- **CUDA Inference:** To enable CUDA support for GPU acceleration, build with the `-DWITH_CUDA=ON` CMake option.
+- **CUDA Inference:** To enable CUDA support for GPU acceleration, build with the `-DENABLE_CUDA=ON` CMake option.
 - **CPU Inference:** For CPU-based inference, no additional options are required.
 
 ## Usage
