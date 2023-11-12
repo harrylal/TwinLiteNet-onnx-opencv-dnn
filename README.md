@@ -33,7 +33,7 @@ I would like to express sincere gratitude to the creators of the [TwinLiteNet mo
 ```cpp
 mkdir build
 cd build
-cmake  -DWITH_CUDA=ON ..
+cmake  -DENABLE_CUDA=ON ..
 make -j8
 ```
 4. Execute `./main` and Enjoy accurate lane detection and drivable area results!
