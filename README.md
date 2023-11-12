@@ -17,6 +17,21 @@ This repository contains a C++ implementation for performing inference with the 
 
 I would like to express sincere gratitude to the creators of the [TwinLiteNet model](https://github.com/chequanghuy/TwinLiteNet) for their remarkable work .Their open-source contribution has had a profound impact on the community and has paved the way for numerous applications in autonomous driving, robotics, and beyond.Thank you for your exceptional work.
 
+## Project Structure
+```
+.
+├── CMakeLists.txt
+├── LICENSE
+├── README.md
+├── assets
+├── include
+│   └── twinlitenet_dnn.hpp
+├── models
+│   └── best.onnx
+└── src
+    ├── main.cpp
+    └── twinlitenet_dnn.cpp
+```
 ## Requirements
 
 - OpenCV 4.8 +
